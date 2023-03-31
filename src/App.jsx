@@ -1,5 +1,4 @@
-import React from 'react'
-//import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 
@@ -9,7 +8,7 @@ import LandingPage from './pages/LandingPage'
 import SignInPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
 import ForgetPasswordPage from './pages/ForgetPasswordPage'
-import MoneyManager from './elements/MoneyManager'
+
 
 
 
@@ -29,17 +28,4 @@ export default function App() {
 }
 
 
-// export default function App() {
-//     return (
-//       <BrowserRouter>
-
-//                     <Route path="/" component={ <HomePage /> } />
-//                     <Route path="/incometracker" component={ <IncomePage /> } />
-//                     <Route path="/landing" component={ <LandingPage /> } />
-//                     <Route path="/login" component={ <LoginPage /> } />
-//                     <Route path="/register" component={ <RegisterPage /> } />
-//                     <Route path="/forget-password" component={ <ForgetPasswordPage /> } />
-//       </BrowserRouter>
-//     );
-//   }
   
