@@ -10,7 +10,7 @@ import introImg3 from '../images/introImg3.png';
 import introImg4 from '../images/introImg4.png'; 
 import '../styles/home.css'
 
-function App() {
+function HomePage() {
 
 
   const buttonNames = ["Sign-up","Login"];
@@ -42,4 +42,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;
