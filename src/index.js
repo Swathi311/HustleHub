@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './components/App';
+import App from './pages/home';
 import { BrowserRouter } from 'react-router-dom';
 
 

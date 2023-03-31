@@ -1,0 +1,46 @@
+/* Register Page */
+#checkbox {
+    width: 1rem;
+  }
+  
+  #reset_pass_lbl {
+    float: left;
+    font-size: 1.2rem;
+    color: #34495e;
+  }
+  
+  form span {
+    font-size: .8rem;
+    color: #7f8c8d;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label, input, #sub_btn {
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .right-label {
+    margin-top: 1rem;
+  }
+  
+  input {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    background-color: #eee;
+  }
+  
+  #sub_btn {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
