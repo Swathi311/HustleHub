@@ -1,4 +1,23 @@
 /* Register Page */
+
+.body-container{
+  background-image: url("../images/bg1.jpg");
+  margin: 0;
+  padding: 5rem;
+  background:linear-gradient(0deg, rgba(86, 84, 85, 0.3), rgba(36, 16, 28, 0.893)), url("../images/bg1.jpg");
+  background-size:cover;
+}
+
+.signup-h2 {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 4rem;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: rgb(166, 154, 161);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+
 #checkbox {
     width: 1rem;
   }

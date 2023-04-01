@@ -1,14 +1,13 @@
 import React from 'react';
-import Header from './Header';
-import Intro from './Intro';
 import IntroHeadings from '../IntroHeadings';
-import AccButton from './AccButton';
-import introImg1 from '../images/introImg1.png'; 
+import introImg1 from '../images/introImg1.png';
 import introImg2 from '../images/introImg2.jpeg';
-import introImg3 from '../images/introImg3.png'; 
-import introImg4 from '../images/introImg4.png'; 
-import {Routes, Route} from 'react-router-dom';
-
+import introImg3 from '../images/introImg3.png';
+import introImg4 from '../images/introImg4.png';
+import AccButton from "../elements/AccButton";
+import Header from "../elements/Header";
+import Intro from "../elements/Intro";
+import '../styles/landing.css'
 function LandingPage() {
 
 

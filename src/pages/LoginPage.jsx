@@ -1,34 +1,27 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import BackgroundImage from '../../images/bg1.jpg';
+import BackgroundImage from '../images/bg1.jpg';
 
 import '../styles/login.css'
 
 export default function SignInPage() {
     return (
-        <div className="text-center m-5-auto">
-            <h2 style={{ color: "white" , fontFamily: "Montserrat"}}>LOGIN</h2>
+        <div className="text-center m-5-auto body-container">
+            <h2 className='login-h2'>LOGIN</h2>
             <form action="/home">
                 <p>
-                    <label>Username or email address</label><br/>
-                    <input type="text" name="first_name" required />
+                    <label><em>Username or email address</em></label>
+                    <input type="text" name="first_name" className="input-box" required />
                 </p>
                 <p>
-                    <label>Password</label>
-                    <Link to="/forget-password"><label className="right-label">Forget password?</label></Link>
-                    <br/>
-                    <input type="password" name="password" required />
+                    <label><em>Password</em></label>
+                    <input type="password" name="password" className="input-box" required />
                 </p>
                 <p>
                     <button id="sub_btn" type="submit">Login</button>
                 </p>
             </form>
-            {/* <footer>
-            
 
-                <p style={{ color: 'white'}}>First time? <Link to="/register">Create an account</Link></p>
-                <p><Link to="/">Back to Homepage</Link></p>
-            </footer> */}
         </div>
     )
 }
