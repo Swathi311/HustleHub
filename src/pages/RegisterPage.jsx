@@ -23,7 +23,7 @@ export default function SignUpPage() {
                 </p>
            
                 <p>
-                    <button id="sub_btn" type="submit">Register</button>
+                    <button id="sub_btn" type="submit" to="/landing">Register</button>
                 </p>
             </form>
         </div>

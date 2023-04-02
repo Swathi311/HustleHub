@@ -2,6 +2,15 @@
 .container{
     width: 80%;
     margin: auto;
+    background-color:  rgb(30, 30, 30);
+}
+
+html{
+    background-color: rgb(30, 30, 30) !important;
+}
+
+.container-body{
+    background-color: rgb(30, 30, 30) !important;
 }
 
 .weeklyCard{

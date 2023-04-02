@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../styles/habitTopNav.css';
@@ -14,7 +13,7 @@ const TopNav = () => {
       <div className="topnav">
         <div className="navLeft">
           <div className="navLeftElem">
-            <Link className="decorationLogo" to='/'>
+            <Link className="decorationLogo" to='/habittracker'>
               <i className="fas fa-leaf"></i> HABIT TRACKER
             </Link>
           </div>

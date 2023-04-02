@@ -26,7 +26,8 @@ function HomePage() {
   ];
 
   return (
-    <div className='container-fluid'>
+    <div className='grad-background'>
+    <div className='container-fluid '>
       
       <Header/>
       <div className='introHead'>
@@ -48,6 +49,7 @@ function HomePage() {
       <Carousell/>
       <div style={{height:"500px", width:"500px"}}></div>
       
+    </div>
     </div>
   );
 }

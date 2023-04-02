@@ -18,7 +18,7 @@ export default function SignInPage() {
                     <input type="password" name="password" className="input-box" required />
                 </p>
                 <p>
-                    <button id="sub_btn" type="submit">Login</button>
+                    <button id="sub_btn" type="submit" to="/landing">Login</button>
                 </p>
             </form>
 

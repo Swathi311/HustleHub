@@ -3,8 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:white;
-    color:   #0f2027 !important;
+    background-color:rgb(33, 33, 33);
+    color:   white !important;
     padding: 1rem;
    
   }
@@ -18,7 +18,7 @@
     font-weight: 600;
     font-size: 1.2rem;
     text-decoration: none;
-    color:#0f2027 !important;
+    color:rgba(255, 255, 255, 0.434) !important;
   }
   
   .decorationLogo i {
@@ -27,10 +27,10 @@
   
   .decoration {
     text-decoration: none;
-    color:#0f2027 !important;
+    color:rgba(255, 255, 255, 0.434) !important;
     } 
  
  .navRightElem{
-    color:#0f2027 !important;
+    color:rgba(255, 255, 255, 0.434) !important;
     font-weight: 600;
  }

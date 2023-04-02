@@ -72,7 +72,7 @@
   .habitCardCrossIcon i:hover,
   .habitCardCheckIcon i.hovered,
   .habitCardCrossIcon i.hovered {
-    color: #007bff;
+    color: #002c5a;
   }
   
   .habitCardCrossIcon {
@@ -92,82 +92,18 @@
     color: #333;
   }
   
-  
-  /* .habitCardContainer {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  .head2{
+    font-family: 'Montserrat', sans-serif;
+    color: #ababab;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
   }
-  
-  .habitCard {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-    max-width: 500px;
-    padding: 20px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    background-color: #fff;
-  }
-  
-  .habitCardTitle {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .habitActionName {
-    display: flex;
-    align-items: center;
-  }
-  
-  .cardName {
-    margin-left: 10px;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .fa-trash {
-    color: #c9302c;
-    font-size: 24px;
-  }
-  
-  .weeklyProgress {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .progressContainer {
-    width: 100%;
-    height: 10px;
-    border-radius: 5px;
-    background-color: #eee;
-    overflow: hidden;
-    margin-bottom: 10px;
-  }
-  
-  .progressBackground {
-    width: 100%;
-    height: 100%;
-    background-color: #ccc;
-  }
-  
-  .progressBar {
-    height: 100%;
-    background-color: #28a745;
-  }
-  
-  .progressText {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  
-  .progressLabel {
-    font-size: 14px;
-  }
-   */
+
+.para{
+  font-family: 'Montserrat', sans-serif;
+    color: #b3b3b3;
+}
 
 /* styles for habit card container */
 .habitCardContainer {
@@ -179,7 +115,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 20px;
@@ -215,13 +151,15 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    color: #666;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
   }
   
   /* styles for progress numbers */
   .weeklyProgress span:nth-child(2) {
-    font-weight: bold;
-    color: #1e90ff;
+    
+    color: #023669;
+    font-weight: 700;
   }
   
   /* styles for trash icon */
@@ -278,3 +216,13 @@
     margin-right: 5px;
   }
   
+  .btn-primary{
+    background-color: #002c5a;
+    border: 2px solid #002c5a;
+    font-family: 'Montserrat',sans-serif;
+  }
+
+  .btn-primary:hover{
+    background-color: #002c5a8b;
+    border: 2px solid #002c5a8b;
+  }

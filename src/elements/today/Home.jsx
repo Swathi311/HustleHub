@@ -28,8 +28,8 @@ const Home = () => {
     <div className="container">
       
       <div className="bg-gradient-primary text-white p-3">
-        <h2 className="mb-0">My Habits Tracker</h2>
-        <p className="mb-0">Track your daily habits and reach your goals</p>
+        <h2 className="mb-0 head2">My Habit Tracker</h2>
+        <p className="mb-0 para"><em>Track your daily habits and reach your goals</em></p>
       </div>
      
       <div className="addHabit">

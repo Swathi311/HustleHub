@@ -10,7 +10,7 @@ const Weekly = () => {
   console.log(habits);
   
   return (
-    <div>
+    <div className="container-body">
     <TopNav/>
     <div className="container">
     
